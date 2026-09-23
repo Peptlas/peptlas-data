@@ -1,0 +1,176 @@
+{
+  "title": "Peptlas open data - peptide regulatory status",
+  "publisher": "Peptlas Research Team",
+  "homepage": "https://peptlas.com/peptide-status-by-country/",
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "last_verified": "2026-09-22",
+  "datasets": [
+    {
+      "file": "peptide-status-matrix.csv",
+      "url": "https://peptlas.com/data/peptide-status-matrix.csv",
+      "title": "Regulatory status by jurisdiction",
+      "description": "One row per compound and authority: the current status under the U.S. FDA, Australia (TGA), the UK (MHRA), the EU (EMA), Health Canada and WADA, in a five-state taxonomy, with a plain-language note.",
+      "rows": 114,
+      "columns": [
+        {
+          "name": "compound",
+          "description": "Compound name as used on Peptlas."
+        },
+        {
+          "name": "slug",
+          "description": "Stable identifier; joins the other files."
+        },
+        {
+          "name": "jurisdiction",
+          "description": "Authority, e.g. \"United States (FDA)\"."
+        },
+        {
+          "name": "regulator",
+          "description": "Short regulator name: FDA, TGA, MHRA, EMA, Health Canada, WADA."
+        },
+        {
+          "name": "status",
+          "description": "compounding_legal | under_review | in_limbo | restricted | unscheduled."
+        },
+        {
+          "name": "status_label",
+          "description": "Human label for status."
+        },
+        {
+          "name": "note",
+          "description": "What the status means for this compound under this authority."
+        },
+        {
+          "name": "entry_url",
+          "description": "The Peptlas entry, with every primary source."
+        },
+        {
+          "name": "last_verified",
+          "description": "Date (ET) the row was last verified by hand against primary sources."
+        }
+      ]
+    },
+    {
+      "file": "peptide-regulatory-events.csv",
+      "url": "https://peptlas.com/data/peptide-regulatory-events.csv",
+      "title": "Regulatory events log",
+      "description": "Dated regulatory events for the tracked compounds (list removals, advisory votes, comment deadlines, enforcement), each with a neutral one-line summary and its primary source.",
+      "rows": 23,
+      "columns": [
+        {
+          "name": "date",
+          "description": "Event date (ET)."
+        },
+        {
+          "name": "compound",
+          "description": "Compound name."
+        },
+        {
+          "name": "slug",
+          "description": "Joins the other files."
+        },
+        {
+          "name": "tag",
+          "description": "not_legalized | status_change | review_scheduled | comment_deadline | enforcement | correction | clarification."
+        },
+        {
+          "name": "summary",
+          "description": "What happened, and what it did not change."
+        },
+        {
+          "name": "source_url",
+          "description": "Primary or best-available source for the event."
+        },
+        {
+          "name": "id",
+          "description": "Stable event identifier."
+        }
+      ]
+    },
+    {
+      "file": "peptide-advisory-votes.csv",
+      "url": "https://peptlas.com/data/peptide-advisory-votes.csv",
+      "title": "FDA advisory committee votes",
+      "description": "Pharmacy Compounding Advisory Committee votes on the tracked compounds. Advisory votes do not change legal status. Where the FDA has not published minutes, tallies are as reported and the reporting source is named.",
+      "rows": 7,
+      "columns": [
+        {
+          "name": "compound",
+          "description": "Compound name."
+        },
+        {
+          "name": "slug",
+          "description": "Joins the other files."
+        },
+        {
+          "name": "date",
+          "description": "Vote date (ET)."
+        },
+        {
+          "name": "committee",
+          "description": "The committee that voted."
+        },
+        {
+          "name": "question",
+          "description": "The question put to the committee."
+        },
+        {
+          "name": "outcome",
+          "description": "recommended | not_recommended."
+        },
+        {
+          "name": "yes",
+          "description": "Yes votes (as reported where noted)."
+        },
+        {
+          "name": "no",
+          "description": "No votes."
+        },
+        {
+          "name": "abstain",
+          "description": "Abstentions."
+        },
+        {
+          "name": "tally_source",
+          "description": "Who reported the tally, while official minutes are unpublished."
+        },
+        {
+          "name": "us_status_now",
+          "description": "The compound's current U.S. status - a vote alone never moves it."
+        }
+      ]
+    },
+    {
+      "file": "peptide-sources.csv",
+      "url": "https://peptlas.com/data/peptide-sources.csv",
+      "title": "Source bibliography",
+      "description": "Every source cited by a Peptlas entry: regulator publications, dockets, warning letters and the reporting behind them, with what each one establishes.",
+      "rows": 184,
+      "columns": [
+        {
+          "name": "compound",
+          "description": "Compound name."
+        },
+        {
+          "name": "slug",
+          "description": "Joins the other files."
+        },
+        {
+          "name": "label",
+          "description": "Source title as cited."
+        },
+        {
+          "name": "url",
+          "description": "Source URL."
+        },
+        {
+          "name": "note",
+          "description": "What the source is cited for, where recorded."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "Peptlas open data: peptide regulatory status by jurisdiction"
+abstract: "The regulatory status of peptides and related compounds under the U.S. FDA, Australia (TGA), the UK (MHRA), the EU (EMA), Health Canada and WADA, in a five-state taxonomy (compounding-legal, under review, in limbo, restricted, unscheduled), with a dated regulatory events log, FDA advisory committee votes and a source bibliography. Every row is verified by hand against primary regulator sources."
+authors:
+  - name: "Peptlas Research Team"
+version: "2026.09.22"
+date-released: 2026-09-22
+license: CC-BY-4.0
+url: "https://peptlas.com/peptide-status-by-country/"
+repository: "https://github.com/Peptlas/peptlas-data"
+keywords:
+  - "peptides"
+  - "BPC-157"
+  - "semaglutide"
+  - "compounding"
+  - "503A"
+  - "FDA"
+  - "TGA"
+  - "MHRA"
+  - "EMA"
+  - "Health Canada"
+  - "WADA"
+  - "regulatory status"

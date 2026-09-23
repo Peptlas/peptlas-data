@@ -1,0 +1,80 @@
+name: Sync from peptlas.com
+
+on:
+  schedule:
+    # Daily, after the site's morning watcher run has had time to deploy.
+    - cron: '40 13 * * *'
+  workflow_dispatch:
+    inputs:
+      release:
+        description: 'Cut a release (and a new Zenodo version) now'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # tags, to compare against the last release
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Pull the datasets from peptlas.com
+        run: node scripts/sync.mjs
+
+      - name: Commit changes
+        id: commit
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "peptlas-bot"
+            git config user.email "bot@peptlas.com"
+            git add -A
+            git commit -m "data: sync $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "No changes."
+          fi
+
+      # A release becomes a new version under the same Zenodo concept DOI. Cut one
+      # when the data files differ from the last release and that release is at
+      # least 28 days old (so versions stay meaningful), or on demand. Never the
+      # first one: that is cut by hand once the Zenodo integration is switched on,
+      # so the archive cannot miss it.
+      - name: Release when due
+        env:
+          GH_TOKEN: ${{ github.token }}
+          FORCE: ${{ inputs.release && 'true' || 'false' }}
+        run: |
+          last=$(git describe --tags --abbrev=0 2>/dev/null || true)
+          if [ -z "$last" ]; then
+            echo "No release yet - the first one is cut by hand."
+            exit 0
+          fi
+          if git diff --quiet "$last" HEAD -- data/*.csv && [ "$FORCE" != "true" ]; then
+            echo "Data unchanged since $last."
+            exit 0
+          fi
+          age=$(( ( $(date +%s) - $(git log -1 --format=%ct "$last") ) / 86400 ))
+          if [ "$age" -lt 28 ] && [ "$FORCE" != "true" ]; then
+            echo "Data changed, but $last is only $age days old - next release will include it."
+            exit 0
+          fi
+          version=$(node -p "require('./.zenodo.json').version")
+          tag="v$version"
+          if git rev-parse "$tag" >/dev/null 2>&1; then
+            echo "$tag already exists."
+            exit 0
+          fi
+          gh release create "$tag" --title "Peptlas open data $version" \
+            --notes "Snapshot verified $(node -p "require('./data/catalog.json').last_verified") (ET). Always-current version: https://peptlas.com/peptide-status-by-country/"
