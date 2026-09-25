@@ -1,10 +1,12 @@
 # Peptlas open data: peptide regulatory status by jurisdiction
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22965339.svg)](https://doi.org/10.5281/zenodo.22965339)
+
 Where peptides such as BPC-157, TB-500, semaglutide and retatrutide stand with six authorities - the U.S. FDA, Australia's TGA, the UK's MHRA, the EU's EMA, Health Canada and WADA - as open, citable data from [Peptlas](https://peptlas.com/), an independent regulatory-status reference that sells nothing.
 
 **Snapshot:** verified 2026-09-22 (ET). **Always-current version:** [peptlas.com/peptide-status-by-country/](https://peptlas.com/peptide-status-by-country/)
 
-This repository mirrors the live site daily. Releases are archived on Zenodo, so every version stays citable.
+This repository mirrors the live site daily. Releases are archived on Zenodo ([doi:10.5281/zenodo.22965339](https://doi.org/10.5281/zenodo.22965339)), so every version stays citable.
 
 ## Files
 
@@ -101,7 +103,7 @@ Every row comes from a primary regulator publication (Federal Register, fda.gov,
 
 ## Cite
 
-> Peptlas Research Team (2026). Peptlas open data: peptide regulatory status by jurisdiction (Version 2026.09.22) [Data set]. https://github.com/Peptlas/peptlas-data
+> Peptlas Research Team (2026). Peptlas open data: peptide regulatory status by jurisdiction (Version 2026.09.22) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.22965339
 
 Machine-readable: [`CITATION.cff`](CITATION.cff).
 
