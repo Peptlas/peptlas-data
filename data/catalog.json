@@ -6,7 +6,7 @@
     "name": "CC BY 4.0",
     "url": "https://creativecommons.org/licenses/by/4.0/"
   },
-  "last_verified": "2026-09-22",
+  "last_verified": "2026-10-09",
   "datasets": [
     {
       "file": "peptide-status-matrix.csv",
@@ -58,7 +58,7 @@
       "url": "https://peptlas.com/data/peptide-regulatory-events.csv",
       "title": "Regulatory events log",
       "description": "Dated regulatory events for the tracked compounds (list removals, advisory votes, comment deadlines, enforcement), each with a neutral one-line summary and its primary source.",
-      "rows": 23,
+      "rows": 29,
       "columns": [
         {
           "name": "date",
@@ -148,7 +148,7 @@
       "url": "https://peptlas.com/data/peptide-sources.csv",
       "title": "Source bibliography",
       "description": "Every source cited by a Peptlas entry: regulator publications, dockets, warning letters and the reporting behind them, with what each one establishes.",
-      "rows": 184,
+      "rows": 192,
       "columns": [
         {
           "name": "compound",

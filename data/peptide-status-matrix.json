@@ -7,7 +7,7 @@
     "url": "https://creativecommons.org/licenses/by/4.0/"
   },
   "attribution": "Peptlas (https://peptlas.com/peptide-status-by-country/)",
-  "last_verified": "2026-09-22",
+  "last_verified": "2026-10-09",
   "jurisdictions": [
     {
       "authority": "United States (FDA)",
@@ -132,7 +132,7 @@
       "status_label": "Restricted",
       "note": "Investigational; not approved, not compoundable (not a component of an approved drug, not an eligible bulk substance). The CagriSema NDA is under FDA review; warning letters to sellers, including products sold under coded names.",
       "entry_url": "https://peptlas.com/entries/cagrilintide/",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-09"
     },
     {
       "compound": "Cagrilintide",
@@ -143,7 +143,7 @@
       "status_label": "Unscheduled",
       "note": "Not individually named or scheduled in the Poisons Standard.",
       "entry_url": "https://peptlas.com/entries/cagrilintide/",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-09"
     },
     {
       "compound": "Cagrilintide",
@@ -154,7 +154,7 @@
       "status_label": "Restricted",
       "note": "No UK marketing authorisation; supply for human use treated as an unlicensed medicine.",
       "entry_url": "https://peptlas.com/entries/cagrilintide/",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-09"
     },
     {
       "compound": "Cagrilintide",
@@ -165,7 +165,7 @@
       "status_label": "Restricted",
       "note": "No EU marketing authorisation; not on EMA's August 2026 list of applications under CHMP evaluation; sale as a medicine unlawful EU-wide, with enforcement at member-state level.",
       "entry_url": "https://peptlas.com/entries/cagrilintide/",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-09"
     },
     {
       "compound": "Cagrilintide",
@@ -176,7 +176,7 @@
       "status_label": "Under review",
       "note": "Cagrilintide/semaglutide new drug submission (Novo Nordisk) accepted into Health Canada review in March 2026; no cagrilintide product yet authorized in the Drug Product Database.",
       "entry_url": "https://peptlas.com/entries/cagrilintide/",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-09"
     },
     {
       "compound": "Cagrilintide",
@@ -187,7 +187,7 @@
       "status_label": "Restricted",
       "note": "Prohibited at all times, but not listed by name - captured by the S0 catch-all for substances with no regulatory approval for human use.",
       "entry_url": "https://peptlas.com/entries/cagrilintide/",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-09"
     },
     {
       "compound": "CJC-1295",
@@ -792,7 +792,7 @@
       "status_label": "Restricted",
       "note": "Investigational; not approved, not compoundable (never on the shortage list, not an eligible bulk substance). FDA warning letters to sellers, including products sold under coded names.",
       "entry_url": "https://peptlas.com/entries/retatrutide/",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-09"
     },
     {
       "compound": "Retatrutide",
@@ -801,9 +801,9 @@
       "regulator": "TGA",
       "status": "restricted",
       "status_label": "Restricted",
-      "note": "Not in the ARTG; the TGA names retatrutide among unapproved peptide products and takes enforcement action against unlawful import, compounding, supply and advertising.",
+      "note": "Not in the ARTG; the TGA names retatrutide among unapproved peptide products and takes enforcement action against unlawful import, compounding, supply and advertising. Victoria's Chief Health Officer issued a health alert on Jun 19, 2026 (still active) after six cases of acute liver injury since January 2026 in people who used products labelled Retatrutide, Reta, R-10 or R-20.",
       "entry_url": "https://peptlas.com/entries/retatrutide/",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-09"
     },
     {
       "compound": "Retatrutide",
@@ -814,7 +814,7 @@
       "status_label": "Restricted",
       "note": "No UK marketing authorisation; supply for human use treated as an unlicensed medicine - MHRA has seized unlicensed retatrutide products in enforcement operations.",
       "entry_url": "https://peptlas.com/entries/retatrutide/",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-09"
     },
     {
       "compound": "Retatrutide",
@@ -825,7 +825,7 @@
       "status_label": "Restricted",
       "note": "No EU marketing authorisation and no application under CHMP evaluation as of August 2026; sale as a medicine is unlawful EU-wide, with enforcement handled at member-state level.",
       "entry_url": "https://peptlas.com/entries/retatrutide/",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-09"
     },
     {
       "compound": "Retatrutide",
@@ -836,7 +836,7 @@
       "status_label": "Restricted",
       "note": "Not authorized by Health Canada; named in an April 2026 advisory on unauthorized injectable peptide drugs - unauthorized drug products are illegal to sell in Canada.",
       "entry_url": "https://peptlas.com/entries/retatrutide/",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-09"
     },
     {
       "compound": "Retatrutide",
@@ -847,7 +847,7 @@
       "status_label": "Restricted",
       "note": "Prohibited at all times, but not listed by name - captured by the S0 catch-all for substances with no regulatory approval for human use.",
       "entry_url": "https://peptlas.com/entries/retatrutide/",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-09"
     },
     {
       "compound": "Selank",
@@ -922,9 +922,9 @@
       "regulator": "FDA",
       "status": "restricted",
       "status_label": "Restricted",
-      "note": "Enforcement discretion ended Apr 22, 2025 (503A) / May 22, 2025 (503B); FDA proposed permanent 503B exclusion (Apr 2026). Narrow patient-specific 503A exception remains.",
+      "note": "Enforcement discretion ended Apr 22, 2025 (503A, as announced; the FDA's Sep 2026 Empower letter dates it Apr 24) / May 22, 2025 (503B); FDA proposed permanent 503B exclusion (Apr 2026). Narrow patient-specific 503A exception remains. Sep 18, 2026: FDA warning letter to Empower Pharmacy over semaglutide/B12 injections that appear to be essentially copies.",
       "entry_url": "https://peptlas.com/entries/semaglutide/",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-09"
     },
     {
       "compound": "Semaglutide",
@@ -935,7 +935,7 @@
       "status_label": "Restricted",
       "note": "GLP-1 analogues removed from the pharmacist compounding exemption effective Oct 1, 2024; remains Schedule 4.",
       "entry_url": "https://peptlas.com/entries/semaglutide/",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-09"
     },
     {
       "compound": "Semaglutide",
@@ -946,7 +946,7 @@
       "status_label": "Restricted",
       "note": "Licensed prescription-only medicine; unlicensed copies may not be supplied where the licensed product can meet the patient's need, and MHRA enforces against unlicensed semaglutide products.",
       "entry_url": "https://peptlas.com/entries/semaglutide/",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-09"
     },
     {
       "compound": "Semaglutide",
@@ -957,7 +957,7 @@
       "status_label": "Restricted",
       "note": "Centrally authorised prescription-only medicine; compounded versions hold no EU marketing authorisation, with enforcement against unlicensed supply handled at member-state level.",
       "entry_url": "https://peptlas.com/entries/semaglutide/",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-09"
     },
     {
       "compound": "Semaglutide",
@@ -966,9 +966,9 @@
       "regulator": "Health Canada",
       "status": "restricted",
       "status_label": "Restricted",
-      "note": "Authorized prescription-only medicine (Ozempic, Wegovy); compounded copies of marketed drugs are not permitted outside a shortage, and Health Canada has recalled compounded semaglutide made with an unauthorized API.",
+      "note": "Authorized prescription-only medicine (Ozempic, Wegovy), and generic semaglutide has been on sale since May 2026 (Dr. Reddy's from May 6, Apotex from May 14); both had Type II recalls in Aug-Sep 2026 (an impurity out of specification; a pen showing the wrong dose). Compounded copies of marketed drugs are not permitted outside a shortage, and Health Canada has recalled compounded semaglutide made with an unauthorized API.",
       "entry_url": "https://peptlas.com/entries/semaglutide/",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-09"
     },
     {
       "compound": "Semaglutide",
@@ -979,7 +979,7 @@
       "status_label": "Unscheduled",
       "note": "Not prohibited; on the WADA Monitoring Program since 2024. WADA confirmed GLP-1 status is unchanged for 2027 (Sep 21, 2026).",
       "entry_url": "https://peptlas.com/entries/semaglutide/",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-09"
     },
     {
       "compound": "Semax",
@@ -1252,9 +1252,9 @@
       "regulator": "FDA",
       "status": "restricted",
       "status_label": "Restricted",
-      "note": "Enforcement discretion ended Feb 18, 2025 (503A) / Mar 19, 2025 (503B); FDA proposed permanent 503B exclusion (Apr 2026). Narrow 503A exception remains.",
+      "note": "Enforcement discretion ended Feb 18, 2025 (503A, as announced; the FDA's Sep 2026 Empower letter dates it Mar 5) / Mar 19, 2025 (503B); FDA proposed permanent 503B exclusion (Apr 2026). Narrow 503A exception remains. Sep 18, 2026: FDA warning letter to Empower Pharmacy over tirzepatide/niacinamide injections that appear to be essentially copies.",
       "entry_url": "https://peptlas.com/entries/tirzepatide/",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-09"
     },
     {
       "compound": "Tirzepatide",
@@ -1265,7 +1265,7 @@
       "status_label": "Restricted",
       "note": "GLP-1 compounding prohibited since Oct 1, 2024; remains Schedule 4.",
       "entry_url": "https://peptlas.com/entries/tirzepatide/",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-09"
     },
     {
       "compound": "Tirzepatide",
@@ -1276,7 +1276,7 @@
       "status_label": "Restricted",
       "note": "Licensed prescription-only medicine; no legitimate compounding pathway; MHRA enforces against unlicensed product.",
       "entry_url": "https://peptlas.com/entries/tirzepatide/",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-09"
     },
     {
       "compound": "Tirzepatide",
@@ -1287,7 +1287,7 @@
       "status_label": "Restricted",
       "note": "Licensed prescription-only medicine EU-wide (Mounjaro, authorised 2022); unauthorised versions cannot be marketed, with pharmacy compounding exemptions and enforcement handled at member-state level.",
       "entry_url": "https://peptlas.com/entries/tirzepatide/",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-09"
     },
     {
       "compound": "Tirzepatide",
@@ -1298,7 +1298,7 @@
       "status_label": "Restricted",
       "note": "Authorized prescription-only medicine (Mounjaro); compounded copies of marketed drugs are not permitted outside a shortage, and Health Canada warns selling unauthorized versions is illegal in Canada.",
       "entry_url": "https://peptlas.com/entries/tirzepatide/",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-09"
     },
     {
       "compound": "Tirzepatide",
@@ -1309,7 +1309,7 @@
       "status_label": "Unscheduled",
       "note": "Not prohibited; added to the WADA Monitoring Program effective Jan 1, 2026. WADA confirmed GLP-1 status is unchanged for 2027 (Sep 21, 2026).",
       "entry_url": "https://peptlas.com/entries/tirzepatide/",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-09"
     }
   ]
 }

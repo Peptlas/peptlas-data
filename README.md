@@ -4,7 +4,7 @@
 
 Where peptides such as BPC-157, TB-500, semaglutide and retatrutide stand with six authorities - the U.S. FDA, Australia's TGA, the UK's MHRA, the EU's EMA, Health Canada and WADA - as open, citable data from [Peptlas](https://peptlas.com/), an independent regulatory-status reference that sells nothing.
 
-**Snapshot:** verified 2026-09-22 (ET). **Always-current version:** [peptlas.com/peptide-status-by-country/](https://peptlas.com/peptide-status-by-country/)
+**Snapshot:** verified 2026-10-09 (ET). **Always-current version:** [peptlas.com/peptide-status-by-country/](https://peptlas.com/peptide-status-by-country/)
 
 This repository mirrors the live site daily. Releases are archived on Zenodo ([doi:10.5281/zenodo.22965339](https://doi.org/10.5281/zenodo.22965339)), so every version stays citable.
 
@@ -13,9 +13,9 @@ This repository mirrors the live site daily. Releases are archived on Zenodo ([d
 | File | Contents | Rows |
 |---|---|---|
 | [`data/peptide-status-matrix.csv`](data/peptide-status-matrix.csv) | Regulatory status by jurisdiction | 114 |
-| [`data/peptide-regulatory-events.csv`](data/peptide-regulatory-events.csv) | Regulatory events log | 23 |
+| [`data/peptide-regulatory-events.csv`](data/peptide-regulatory-events.csv) | Regulatory events log | 29 |
 | [`data/peptide-advisory-votes.csv`](data/peptide-advisory-votes.csv) | FDA advisory committee votes | 7 |
-| [`data/peptide-sources.csv`](data/peptide-sources.csv) | Source bibliography | 184 |
+| [`data/peptide-sources.csv`](data/peptide-sources.csv) | Source bibliography | 192 |
 | [`data/peptide-status-matrix.json`](data/peptide-status-matrix.json) | The status grid with metadata and the status definitions | - |
 | [`data/catalog.json`](data/catalog.json) | Machine-readable index of every file and column | - |
 
@@ -103,7 +103,7 @@ Every row comes from a primary regulator publication (Federal Register, fda.gov,
 
 ## Cite
 
-> Peptlas Research Team (2026). Peptlas open data: peptide regulatory status by jurisdiction (Version 2026.09.22) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.22965339
+> Peptlas Research Team (2026). Peptlas open data: peptide regulatory status by jurisdiction (Version 2026.10.09) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.22965339
 
 Machine-readable: [`CITATION.cff`](CITATION.cff).
 
