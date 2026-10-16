@@ -7,7 +7,7 @@
     "url": "https://creativecommons.org/licenses/by/4.0/"
   },
   "attribution": "Peptlas (https://peptlas.com/peptide-status-by-country/)",
-  "last_verified": "2026-10-09",
+  "last_verified": "2026-10-15",
   "jurisdictions": [
     {
       "authority": "United States (FDA)",
@@ -37,7 +37,7 @@
   "statuses": {
     "compounding_legal": {
       "label": "Compounding-legal",
-      "meaning": "On the FDA 503A bulk-substances list; a licensed pharmacy may compound it. This is not the same as being an FDA-approved drug."
+      "meaning": "A licensed pharmacy may compound it on prescription: it is on the FDA 503A bulk-substances list or is an ingredient of an FDA-approved drug that is not on the market. This is not the same as being an FDA-approved drug."
     },
     "under_review": {
       "label": "Under review",
@@ -57,6 +57,72 @@
     }
   },
   "rows": [
+    {
+      "compound": "AOD-9604",
+      "slug": "aod-9604",
+      "jurisdiction": "United States (FDA)",
+      "regulator": "FDA",
+      "status": "in_limbo",
+      "status_label": "In limbo",
+      "note": "Removed from 503A Category 2 on Sep 27, 2024 after the nominations were withdrawn; PCAC voted 0-12 against the 503A list on Dec 4, 2024; in no category, not compoundable.",
+      "entry_url": "https://peptlas.com/entries/aod-9604/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "AOD-9604",
+      "slug": "aod-9604",
+      "jurisdiction": "Australia (TGA)",
+      "regulator": "TGA",
+      "status": "restricted",
+      "status_label": "Restricted",
+      "note": "Named in Schedule 4 (prescription only) of the Poisons Standard and in Appendix D item 5 (possession without authority is illegal), entries made by a 2015 scheduling decision.",
+      "entry_url": "https://peptlas.com/entries/aod-9604/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "AOD-9604",
+      "slug": "aod-9604",
+      "jurisdiction": "United Kingdom (MHRA)",
+      "regulator": "MHRA",
+      "status": "restricted",
+      "status_label": "Restricted",
+      "note": "No UK marketing authorisation (not in the MHRA products substance index); supply as a medicine would be unlicensed.",
+      "entry_url": "https://peptlas.com/entries/aod-9604/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "AOD-9604",
+      "slug": "aod-9604",
+      "jurisdiction": "European Union (EMA)",
+      "regulator": "EMA",
+      "status": "restricted",
+      "status_label": "Restricted",
+      "note": "No EU marketing authorisation or orphan designation (absent from the Union Register); sale as a medicine is unlawful EU-wide, with enforcement at member-state level.",
+      "entry_url": "https://peptlas.com/entries/aod-9604/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "AOD-9604",
+      "slug": "aod-9604",
+      "jurisdiction": "Canada (Health Canada)",
+      "regulator": "Health Canada",
+      "status": "restricted",
+      "status_label": "Restricted",
+      "note": "Not in the Drug Product Database; Health Canada advisories in Aug and Dec 2025 list seized AOD-9604 among unauthorized injectable peptide drugs, which it regulates as prescription drugs.",
+      "entry_url": "https://peptlas.com/entries/aod-9604/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "AOD-9604",
+      "slug": "aod-9604",
+      "jurisdiction": "Sport / anti-doping (WADA)",
+      "regulator": "WADA",
+      "status": "restricted",
+      "status_label": "Restricted",
+      "note": "Named in S2.2.3 of the 2027 Prohibited List as a growth hormone fragment (\"e.g. AOD-9604 and hGH 176-191\"); prohibited at all times.",
+      "entry_url": "https://peptlas.com/entries/aod-9604/",
+      "last_verified": "2026-10-15"
+    },
     {
       "compound": "BPC-157",
       "slug": "bpc-157",
@@ -254,6 +320,72 @@
       "note": "Prohibited at all times under S2 as a growth-hormone-releasing factor analogue.",
       "entry_url": "https://peptlas.com/entries/cjc-1295/",
       "last_verified": "2026-09-22"
+    },
+    {
+      "compound": "Dihexa",
+      "slug": "dihexa",
+      "jurisdiction": "United States (FDA)",
+      "regulator": "FDA",
+      "status": "in_limbo",
+      "status_label": "In limbo",
+      "note": "Removed from 503A Category 2 on Apr 22, 2026 after the nomination was withdrawn; not on the 503A list; PCAC review expected before end of Feb 2027.",
+      "entry_url": "https://peptlas.com/entries/dihexa/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "Dihexa",
+      "slug": "dihexa",
+      "jurisdiction": "Australia (TGA)",
+      "regulator": "TGA",
+      "status": "unscheduled",
+      "status_label": "Unscheduled",
+      "note": "Not individually named in the Poisons Standard (October 2026) and no product on the ARTG; supply for human use is unlawful without ARTG registration, and the TGA is enforcing against unapproved peptides.",
+      "entry_url": "https://peptlas.com/entries/dihexa/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "Dihexa",
+      "slug": "dihexa",
+      "jurisdiction": "United Kingdom (MHRA)",
+      "regulator": "MHRA",
+      "status": "restricted",
+      "status_label": "Restricted",
+      "note": "No UK marketing authorisation (not in the MHRA products substance index); supply as a medicine would be unlicensed.",
+      "entry_url": "https://peptlas.com/entries/dihexa/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "Dihexa",
+      "slug": "dihexa",
+      "jurisdiction": "European Union (EMA)",
+      "regulator": "EMA",
+      "status": "restricted",
+      "status_label": "Restricted",
+      "note": "No EU marketing authorisation or orphan designation (absent from the Union Register); sale as a medicine is unlawful EU-wide, with enforcement at member-state level.",
+      "entry_url": "https://peptlas.com/entries/dihexa/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "Dihexa",
+      "slug": "dihexa",
+      "jurisdiction": "Canada (Health Canada)",
+      "regulator": "Health Canada",
+      "status": "restricted",
+      "status_label": "Restricted",
+      "note": "No product in the Drug Product Database, so it has no DIN and cannot lawfully be sold as a drug; no Health Canada advisory names it.",
+      "entry_url": "https://peptlas.com/entries/dihexa/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "Dihexa",
+      "slug": "dihexa",
+      "jurisdiction": "Sport / anti-doping (WADA)",
+      "regulator": "WADA",
+      "status": "restricted",
+      "status_label": "Restricted",
+      "note": "Not individually named, but prohibited at all times under the S0 catch-all for non-approved substances (2027 List).",
+      "entry_url": "https://peptlas.com/entries/dihexa/",
+      "last_verified": "2026-10-15"
     },
     {
       "compound": "Emideltide (DSIP)",
@@ -520,6 +652,72 @@
       "last_verified": "2026-09-22"
     },
     {
+      "compound": "Kisspeptin-10",
+      "slug": "kisspeptin",
+      "jurisdiction": "United States (FDA)",
+      "regulator": "FDA",
+      "status": "restricted",
+      "status_label": "Restricted",
+      "note": "503A Category 2 since Sep 29, 2023 - FDA would consider taking action against a pharmacy that compounds with it. PCAC voted 0-11 against adding it to the 503A bulks list (Oct 29, 2024); no final rule yet. No FDA-approved kisspeptin product.",
+      "entry_url": "https://peptlas.com/entries/kisspeptin/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "Kisspeptin-10",
+      "slug": "kisspeptin",
+      "jurisdiction": "Australia (TGA)",
+      "regulator": "TGA",
+      "status": "unscheduled",
+      "status_label": "Unscheduled",
+      "note": "Not individually named in the Poisons Standard (October 2026) and no product on the ARTG; supply for human use is unlawful without ARTG registration, and the TGA is enforcing against unapproved peptides.",
+      "entry_url": "https://peptlas.com/entries/kisspeptin/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "Kisspeptin-10",
+      "slug": "kisspeptin",
+      "jurisdiction": "United Kingdom (MHRA)",
+      "regulator": "MHRA",
+      "status": "restricted",
+      "status_label": "Restricted",
+      "note": "No UK marketing authorisation; the MHRA products database holds no kisspeptin product (its only matches are other medicines' documents that mention kisspeptin).",
+      "entry_url": "https://peptlas.com/entries/kisspeptin/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "Kisspeptin-10",
+      "slug": "kisspeptin",
+      "jurisdiction": "European Union (EMA)",
+      "regulator": "EMA",
+      "status": "restricted",
+      "status_label": "Restricted",
+      "note": "No EU marketing authorisation and no EU orphan designation; absent from the Union Register, so sale as a medicine is unlawful EU-wide, with enforcement at member-state level.",
+      "entry_url": "https://peptlas.com/entries/kisspeptin/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "Kisspeptin-10",
+      "slug": "kisspeptin",
+      "jurisdiction": "Canada (Health Canada)",
+      "regulator": "Health Canada",
+      "status": "restricted",
+      "status_label": "Restricted",
+      "note": "Not in the Drug Product Database; Health Canada has listed kisspeptin products among unauthorized products seized in Calgary (Apr 2025), from Canada Peptide (Aug 2025) and at Rize Fitness (Dec 2025).",
+      "entry_url": "https://peptlas.com/entries/kisspeptin/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "Kisspeptin-10",
+      "slug": "kisspeptin",
+      "jurisdiction": "Sport / anti-doping (WADA)",
+      "regulator": "WADA",
+      "status": "restricted",
+      "status_label": "Restricted",
+      "note": "Named in S2.2.1: \"kisspeptin and its agonist analogues\" are testosterone-stimulating peptides prohibited at all times in males (2026 and 2027 Lists).",
+      "entry_url": "https://peptlas.com/entries/kisspeptin/",
+      "last_verified": "2026-10-15"
+    },
+    {
       "compound": "KPV",
       "slug": "kpv",
       "jurisdiction": "United States (FDA)",
@@ -584,6 +782,72 @@
       "note": "Not individually named, but prohibited at all times under the S0 catch-all for non-approved substances.",
       "entry_url": "https://peptlas.com/entries/kpv/",
       "last_verified": "2026-09-22"
+    },
+    {
+      "compound": "LL-37 (cathelicidin)",
+      "slug": "ll-37",
+      "jurisdiction": "United States (FDA)",
+      "regulator": "FDA",
+      "status": "in_limbo",
+      "status_label": "In limbo",
+      "note": "Removed from 503A Category 2 on Apr 22, 2026 after the nomination was withdrawn; not on the 503A list; PCAC review expected before end of Feb 2027.",
+      "entry_url": "https://peptlas.com/entries/ll-37/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "LL-37 (cathelicidin)",
+      "slug": "ll-37",
+      "jurisdiction": "Australia (TGA)",
+      "regulator": "TGA",
+      "status": "unscheduled",
+      "status_label": "Unscheduled",
+      "note": "Not individually named in the Poisons Standard (October 2026) and no product on the ARTG; supply for human use is unlawful without ARTG registration, and the TGA is enforcing against unapproved peptides.",
+      "entry_url": "https://peptlas.com/entries/ll-37/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "LL-37 (cathelicidin)",
+      "slug": "ll-37",
+      "jurisdiction": "United Kingdom (MHRA)",
+      "regulator": "MHRA",
+      "status": "restricted",
+      "status_label": "Restricted",
+      "note": "No UK marketing authorisation (not in the MHRA products substance index); supply as a medicine would be unlicensed.",
+      "entry_url": "https://peptlas.com/entries/ll-37/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "LL-37 (cathelicidin)",
+      "slug": "ll-37",
+      "jurisdiction": "European Union (EMA)",
+      "regulator": "EMA",
+      "status": "restricted",
+      "status_label": "Restricted",
+      "note": "No EU marketing authorisation or orphan designation (absent from the Union Register); sale as a medicine is unlawful EU-wide, with enforcement at member-state level.",
+      "entry_url": "https://peptlas.com/entries/ll-37/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "LL-37 (cathelicidin)",
+      "slug": "ll-37",
+      "jurisdiction": "Canada (Health Canada)",
+      "regulator": "Health Canada",
+      "status": "restricted",
+      "status_label": "Restricted",
+      "note": "Not in the Drug Product Database; a Health Canada advisory (Aug 1, 2025) lists seized LL-37 among unauthorized injectable peptide drugs, which it regulates as prescription drugs.",
+      "entry_url": "https://peptlas.com/entries/ll-37/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "LL-37 (cathelicidin)",
+      "slug": "ll-37",
+      "jurisdiction": "Sport / anti-doping (WADA)",
+      "regulator": "WADA",
+      "status": "restricted",
+      "status_label": "Restricted",
+      "note": "Not individually named, but prohibited at all times under the S0 catch-all for non-approved substances (2027 List).",
+      "entry_url": "https://peptlas.com/entries/ll-37/",
+      "last_verified": "2026-10-15"
     },
     {
       "compound": "Melanotan II",
@@ -782,6 +1046,72 @@
       "note": "Not named on the Prohibited List, but IV infusions over 100 mL per 12 hours are prohibited as a method (M2.2).",
       "entry_url": "https://peptlas.com/entries/nad-plus/",
       "last_verified": "2026-09-22"
+    },
+    {
+      "compound": "PT-141 (bremelanotide)",
+      "slug": "pt-141",
+      "jurisdiction": "United States (FDA)",
+      "regulator": "FDA",
+      "status": "restricted",
+      "status_label": "Restricted",
+      "note": "FDA-approved prescription drug: Vyleesi, NDA 210557, approved Jun 21, 2019. As a component of that drug it may be 503A-compounded for an individual patient, but not as regular copies of Vyleesi while it is marketed. Aug 24, 2026: FDA warning letters to five online \"research peptide\" sellers name PT-141.",
+      "entry_url": "https://peptlas.com/entries/pt-141/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "PT-141 (bremelanotide)",
+      "slug": "pt-141",
+      "jurisdiction": "Australia (TGA)",
+      "regulator": "TGA",
+      "status": "unscheduled",
+      "status_label": "Unscheduled",
+      "note": "Not individually named in the Poisons Standard (October 2026) and no product on the ARTG; supply for human use is unlawful without ARTG registration, and the TGA is enforcing against unapproved peptides.",
+      "entry_url": "https://peptlas.com/entries/pt-141/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "PT-141 (bremelanotide)",
+      "slug": "pt-141",
+      "jurisdiction": "United Kingdom (MHRA)",
+      "regulator": "MHRA",
+      "status": "restricted",
+      "status_label": "Restricted",
+      "note": "No UK marketing authorisation (no bremelanotide product in the MHRA Products database); supply as a medicine would be unlicensed.",
+      "entry_url": "https://peptlas.com/entries/pt-141/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "PT-141 (bremelanotide)",
+      "slug": "pt-141",
+      "jurisdiction": "European Union (EMA)",
+      "regulator": "EMA",
+      "status": "restricted",
+      "status_label": "Restricted",
+      "note": "No EU marketing authorisation: absent from the Union Register, and EMA's medicines data lists no application for it. Enforcement against unlicensed supply is handled at member-state level.",
+      "entry_url": "https://peptlas.com/entries/pt-141/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "PT-141 (bremelanotide)",
+      "slug": "pt-141",
+      "jurisdiction": "Canada (Health Canada)",
+      "regulator": "Health Canada",
+      "status": "restricted",
+      "status_label": "Restricted",
+      "note": "No authorized product in the Drug Product Database; Health Canada named bremelanotide among unauthorized injectable peptide drugs seized from Canada Peptide (advisory updated Aug 1, 2025).",
+      "entry_url": "https://peptlas.com/entries/pt-141/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "PT-141 (bremelanotide)",
+      "slug": "pt-141",
+      "jurisdiction": "Sport / anti-doping (WADA)",
+      "regulator": "WADA",
+      "status": "unscheduled",
+      "status_label": "Unscheduled",
+      "note": "Not named on the 2026 or 2027 Prohibited List or the 2027 Monitoring Program; S0 covers only substances with no government approval for human use, and bremelanotide is FDA-approved.",
+      "entry_url": "https://peptlas.com/entries/pt-141/",
+      "last_verified": "2026-10-15"
     },
     {
       "compound": "Retatrutide",
@@ -1054,9 +1384,9 @@
       "regulator": "FDA",
       "status": "compounding_legal",
       "status_label": "Compounding-legal",
-      "note": "Category 1 of the interim 503A list; compoundable with a valid prescription under enforcement discretion. Previously approved as Geref.",
+      "note": "Not on the 503A bulks list or any interim category. Compounded as a component of Geref (NDAs 19-863, 20-443), whose approvals were withdrawn at the sponsor's request effective Jun 18, 2009; FDA found (Mar 4, 2013) it was not withdrawn for safety or effectiveness. FDA has not addressed whether a withdrawn approval still qualifies.",
       "entry_url": "https://peptlas.com/entries/sermorelin/",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-15"
     },
     {
       "compound": "Sermorelin",
@@ -1065,9 +1395,9 @@
       "regulator": "TGA",
       "status": "restricted",
       "status_label": "Restricted",
-      "note": "Prescription-only (Schedule 4) as a GHRH analog; obtainable via compounding pharmacy on prescription.",
+      "note": "Schedule 4 (prescription-only), named individually in the Poisons Standard (October 2026), and possession without authority is illegal (Appendix D). No product on the ARTG.",
       "entry_url": "https://peptlas.com/entries/sermorelin/",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-15"
     },
     {
       "compound": "Sermorelin",
@@ -1078,7 +1408,7 @@
       "status_label": "Restricted",
       "note": "No UK marketing authorisation; supply for human use treated as an unlicensed medicine.",
       "entry_url": "https://peptlas.com/entries/sermorelin/",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-15"
     },
     {
       "compound": "Sermorelin",
@@ -1089,7 +1419,7 @@
       "status_label": "Restricted",
       "note": "No centralised EU marketing authorisation (absent from the Union Register); sale as a medicine is unlawful EU-wide, with enforcement handled at member-state level.",
       "entry_url": "https://peptlas.com/entries/sermorelin/",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-15"
     },
     {
       "compound": "Sermorelin",
@@ -1100,7 +1430,7 @@
       "status_label": "Restricted",
       "note": "Named on the Prescription Drug List ('Sermorelin or its salts', effective 2013-12-19); no product currently authorized in the Drug Product Database.",
       "entry_url": "https://peptlas.com/entries/sermorelin/",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-15"
     },
     {
       "compound": "Sermorelin",
@@ -1109,9 +1439,75 @@
       "regulator": "WADA",
       "status": "restricted",
       "status_label": "Restricted",
-      "note": "GHRH analogs fall under S2; prohibited at all times.",
+      "note": "Named in S2.2.4 (GHRH and its analogues) on the 2026 and 2027 Prohibited Lists; prohibited at all times.",
       "entry_url": "https://peptlas.com/entries/sermorelin/",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "SS-31 (elamipretide)",
+      "slug": "ss-31",
+      "jurisdiction": "United States (FDA)",
+      "regulator": "FDA",
+      "status": "restricted",
+      "status_label": "Restricted",
+      "note": "FDA-approved prescription drug: Forzinity (elamipretide hydrochloride) injection, NDA 215244, accelerated approval Sep 19, 2025. As a component of that drug, the HCl salt may be 503A-compounded for an individual patient, but not regularly or in inordinate amounts as essentially copies of Forzinity. FDA has called elamipretide (SS-31) acetate ineligible for 503A compounding (Dec 2025 warning letter). Not on any 503A category list.",
+      "entry_url": "https://peptlas.com/entries/ss-31/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "SS-31 (elamipretide)",
+      "slug": "ss-31",
+      "jurisdiction": "Australia (TGA)",
+      "regulator": "TGA",
+      "status": "unscheduled",
+      "status_label": "Unscheduled",
+      "note": "Not individually named in the Poisons Standard (October 2026) and no product on the ARTG; supply for human use is unlawful without ARTG registration, and the TGA is enforcing against unapproved peptides.",
+      "entry_url": "https://peptlas.com/entries/ss-31/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "SS-31 (elamipretide)",
+      "slug": "ss-31",
+      "jurisdiction": "United Kingdom (MHRA)",
+      "regulator": "MHRA",
+      "status": "restricted",
+      "status_label": "Restricted",
+      "note": "No UK marketing authorisation (no result for elamipretide in the MHRA products database); supply as a medicine is unlicensed.",
+      "entry_url": "https://peptlas.com/entries/ss-31/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "SS-31 (elamipretide)",
+      "slug": "ss-31",
+      "jurisdiction": "European Union (EMA)",
+      "regulator": "EMA",
+      "status": "restricted",
+      "status_label": "Restricted",
+      "note": "No EU marketing authorisation. Holds EU orphan designations for Barth syndrome (May 20, 2021) and myopathic mitochondrial DNA depletion syndrome (May 16, 2022), which EMA says do not mean the medicine is authorised.",
+      "entry_url": "https://peptlas.com/entries/ss-31/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "SS-31 (elamipretide)",
+      "slug": "ss-31",
+      "jurisdiction": "Canada (Health Canada)",
+      "regulator": "Health Canada",
+      "status": "restricted",
+      "status_label": "Restricted",
+      "note": "Not in the Drug Product Database; Health Canada's Apr 9, 2026 advisory names SS-31 among unauthorized injectable peptide drugs it has seized.",
+      "entry_url": "https://peptlas.com/entries/ss-31/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "SS-31 (elamipretide)",
+      "slug": "ss-31",
+      "jurisdiction": "Sport / anti-doping (WADA)",
+      "regulator": "WADA",
+      "status": "unscheduled",
+      "status_label": "Unscheduled",
+      "note": "Not named on the 2027 Prohibited List. S0 covers only substances with no current government approval for human therapeutic use, and elamipretide has been FDA-approved since Sep 2025.",
+      "entry_url": "https://peptlas.com/entries/ss-31/",
+      "last_verified": "2026-10-15"
     },
     {
       "compound": "TB-500 (Thymosin Beta-4)",
@@ -1178,6 +1574,72 @@
       "note": "Prohibited at all times as a growth factor / non-approved substance. Unchanged on the 2027 List (published Sep 21, 2026; in force Jan 1, 2027).",
       "entry_url": "https://peptlas.com/entries/tb-500/",
       "last_verified": "2026-09-22"
+    },
+    {
+      "compound": "Tesamorelin",
+      "slug": "tesamorelin",
+      "jurisdiction": "United States (FDA)",
+      "regulator": "FDA",
+      "status": "restricted",
+      "status_label": "Restricted",
+      "note": "Approved Nov 10, 2010 (Egrifta); deemed a biologics license (BLA 022505) on Mar 23, 2020, so outside the 503A/503B compounding exemptions. Aug 24, 2026: FDA warning letters to five online \"research peptide\" sellers name tesamorelin.",
+      "entry_url": "https://peptlas.com/entries/tesamorelin/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "Tesamorelin",
+      "slug": "tesamorelin",
+      "jurisdiction": "Australia (TGA)",
+      "regulator": "TGA",
+      "status": "restricted",
+      "status_label": "Restricted",
+      "note": "Not named individually in the Poisons Standard (October 2026), but Appendix D lists growth hormone releasing hormones (GHRHs) as a group among poisons that are illegal to possess without authority. No product on the ARTG.",
+      "entry_url": "https://peptlas.com/entries/tesamorelin/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "Tesamorelin",
+      "slug": "tesamorelin",
+      "jurisdiction": "United Kingdom (MHRA)",
+      "regulator": "MHRA",
+      "status": "restricted",
+      "status_label": "Restricted",
+      "note": "No UK marketing authorisation (no tesamorelin product in the MHRA Products database); supply as a medicine would be unlicensed.",
+      "entry_url": "https://peptlas.com/entries/tesamorelin/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "Tesamorelin",
+      "slug": "tesamorelin",
+      "jurisdiction": "European Union (EMA)",
+      "regulator": "EMA",
+      "status": "restricted",
+      "status_label": "Restricted",
+      "note": "No EU marketing authorisation: Ferrer Internacional withdrew its application for Egrifta on June 21, 2012, when the CHMP's provisional opinion was that it could not have been approved.",
+      "entry_url": "https://peptlas.com/entries/tesamorelin/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "Tesamorelin",
+      "slug": "tesamorelin",
+      "jurisdiction": "Canada (Health Canada)",
+      "regulator": "Health Canada",
+      "status": "restricted",
+      "status_label": "Restricted",
+      "note": "On the Prescription Drug List since 2014-04-25 ('Tesamorelin or its salts or derivatives'); both Egrifta DINs are cancelled (2022, 2023), so no product is currently authorized for sale. Named among seized unauthorized peptides (Aug 2025).",
+      "entry_url": "https://peptlas.com/entries/tesamorelin/",
+      "last_verified": "2026-10-15"
+    },
+    {
+      "compound": "Tesamorelin",
+      "slug": "tesamorelin",
+      "jurisdiction": "Sport / anti-doping (WADA)",
+      "regulator": "WADA",
+      "status": "restricted",
+      "status_label": "Restricted",
+      "note": "Named in S2.2.4 (GHRH and its analogues) on the 2026 and 2027 Prohibited Lists; prohibited at all times.",
+      "entry_url": "https://peptlas.com/entries/tesamorelin/",
+      "last_verified": "2026-10-15"
     },
     {
       "compound": "Thymosin Alpha-1",

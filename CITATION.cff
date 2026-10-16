@@ -5,8 +5,8 @@ title: "Peptlas open data: peptide regulatory status by jurisdiction"
 abstract: "The regulatory status of peptides and related compounds under the U.S. FDA, Australia (TGA), the UK (MHRA), the EU (EMA), Health Canada and WADA, in a five-state taxonomy (compounding-legal, under review, in limbo, restricted, unscheduled), with a dated regulatory events log, FDA advisory committee votes and a source bibliography. Every row is verified by hand against primary regulator sources."
 authors:
   - name: "Peptlas Research Team"
-version: "2026.10.09"
-date-released: 2026-10-09
+version: "2026.10.15"
+date-released: 2026-10-15
 license: CC-BY-4.0
 url: "https://peptlas.com/peptide-status-by-country/"
 repository: "https://github.com/Peptlas/peptlas-data"

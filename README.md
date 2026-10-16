@@ -4,7 +4,7 @@
 
 Where peptides such as BPC-157, TB-500, semaglutide and retatrutide stand with six authorities - the U.S. FDA, Australia's TGA, the UK's MHRA, the EU's EMA, Health Canada and WADA - as open, citable data from [Peptlas](https://peptlas.com/), an independent regulatory-status reference that sells nothing.
 
-**Snapshot:** verified 2026-10-09 (ET). **Always-current version:** [peptlas.com/peptide-status-by-country/](https://peptlas.com/peptide-status-by-country/)
+**Snapshot:** verified 2026-10-15 (ET). **Always-current version:** [peptlas.com/peptide-status-by-country/](https://peptlas.com/peptide-status-by-country/)
 
 This repository mirrors the live site daily. Releases are archived on Zenodo ([doi:10.5281/zenodo.22965339](https://doi.org/10.5281/zenodo.22965339)), so every version stays citable.
 
@@ -12,10 +12,10 @@ This repository mirrors the live site daily. Releases are archived on Zenodo ([d
 
 | File | Contents | Rows |
 |---|---|---|
-| [`data/peptide-status-matrix.csv`](data/peptide-status-matrix.csv) | Regulatory status by jurisdiction | 114 |
+| [`data/peptide-status-matrix.csv`](data/peptide-status-matrix.csv) | Regulatory status by jurisdiction | 156 |
 | [`data/peptide-regulatory-events.csv`](data/peptide-regulatory-events.csv) | Regulatory events log | 29 |
-| [`data/peptide-advisory-votes.csv`](data/peptide-advisory-votes.csv) | FDA advisory committee votes | 7 |
-| [`data/peptide-sources.csv`](data/peptide-sources.csv) | Source bibliography | 192 |
+| [`data/peptide-advisory-votes.csv`](data/peptide-advisory-votes.csv) | FDA advisory committee votes | 9 |
+| [`data/peptide-sources.csv`](data/peptide-sources.csv) | Source bibliography | 268 |
 | [`data/peptide-status-matrix.json`](data/peptide-status-matrix.json) | The status grid with metadata and the status definitions | - |
 | [`data/catalog.json`](data/catalog.json) | Machine-readable index of every file and column | - |
 
@@ -27,7 +27,7 @@ Status is never reduced to legal / illegal. "In limbo" is the case the headlines
 
 | Value | Label | Meaning |
 |---|---|---|
-| `compounding_legal` | Compounding-legal | On the FDA 503A bulk-substances list; a licensed pharmacy may compound it. This is not the same as being an FDA-approved drug. |
+| `compounding_legal` | Compounding-legal | A licensed pharmacy may compound it on prescription: it is on the FDA 503A bulk-substances list or is an ingredient of an FDA-approved drug that is not on the market. This is not the same as being an FDA-approved drug. |
 | `under_review` | Under review | Actively before the FDA advisory committee; a decision is pending and the status can move. |
 | `in_limbo` | In limbo | Moved on paper - nominated, removed from a restricted list, or recommended by an FDA committee - but not added to the 503A list. The headline implies a change; the legal status has not moved. |
 | `restricted` | Restricted | Prescription-only, banned, controlled, or under active FDA enforcement. |
@@ -103,7 +103,7 @@ Every row comes from a primary regulator publication (Federal Register, fda.gov,
 
 ## Cite
 
-> Peptlas Research Team (2026). Peptlas open data: peptide regulatory status by jurisdiction (Version 2026.10.09) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.22965339
+> Peptlas Research Team (2026). Peptlas open data: peptide regulatory status by jurisdiction (Version 2026.10.15) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.22965339
 
 Machine-readable: [`CITATION.cff`](CITATION.cff).
 

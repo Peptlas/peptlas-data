@@ -6,14 +6,14 @@
     "name": "CC BY 4.0",
     "url": "https://creativecommons.org/licenses/by/4.0/"
   },
-  "last_verified": "2026-10-09",
+  "last_verified": "2026-10-15",
   "datasets": [
     {
       "file": "peptide-status-matrix.csv",
       "url": "https://peptlas.com/data/peptide-status-matrix.csv",
       "title": "Regulatory status by jurisdiction",
       "description": "One row per compound and authority: the current status under the U.S. FDA, Australia (TGA), the UK (MHRA), the EU (EMA), Health Canada and WADA, in a five-state taxonomy, with a plain-language note.",
-      "rows": 114,
+      "rows": 156,
       "columns": [
         {
           "name": "compound",
@@ -95,7 +95,7 @@
       "url": "https://peptlas.com/data/peptide-advisory-votes.csv",
       "title": "FDA advisory committee votes",
       "description": "Pharmacy Compounding Advisory Committee votes on the tracked compounds. Advisory votes do not change legal status. Where the FDA has not published minutes, tallies are as reported and the reporting source is named.",
-      "rows": 7,
+      "rows": 9,
       "columns": [
         {
           "name": "compound",
@@ -148,7 +148,7 @@
       "url": "https://peptlas.com/data/peptide-sources.csv",
       "title": "Source bibliography",
       "description": "Every source cited by a Peptlas entry: regulator publications, dockets, warning letters and the reporting behind them, with what each one establishes.",
-      "rows": 192,
+      "rows": 268,
       "columns": [
         {
           "name": "compound",
